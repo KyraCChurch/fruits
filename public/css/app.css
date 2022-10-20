@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com");
+
+
+body {
+  background: url(https://i.pinimg.com/736x/83/e5/4a/83e54ac0841b912e3c6f31f94e2134df.jpg);
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  background: rgba(255, 224, 197, 1);
+  margin: 0;
+  margin-bottom: .5em;
+  padding: 1em;
+  text-align: center;
+  color: rgba(255, 142, 104, 1);
+  text-shadow: 1px 1px 1px black;
+}
+
+a {
+  color: rgba(255, 225, 225, 1);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+  background: rgba(101, 171, 143, 0.7);
+}
+
+a:hover {
+  color: rgba(255, 142, 104, 1);
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: rgba(255, 193, 173, 1);
+}
+
+input[type=text] {
+  padding: .3em;
+}
+
+input[type=submit] {
+  padding: .3em;
+  color: rgba(255, 193, 173, 1);
+  background: rgba(101, 171, 143, 1);
+  font-size: 1em;
+  border-radius: 10%;
+  margin: 5px;
+}
