@@ -7,7 +7,7 @@ class Show extends React.Component {
     const capName = name[0].toUpperCase() + name.substring(1)
     return (
       <Default title={`${capName} Show Page`} fruit={this.props.fruit}>
-        { <p>{capName} is {color} and {readyToEat ? 'it\'s ready to eat' : 'it\'s not ready to eat'}</p> }
+        <p>{capName} is {color} and {readyToEat ? 'it\'s ready to eat' : 'it\'s not ready to eat'}</p>
       </Default>
     )
   }
